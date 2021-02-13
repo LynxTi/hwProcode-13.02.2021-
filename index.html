@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="content">
+		<div class="textContainer colorText yellowColor">
+			<h3 class="textTitle">Это экспериментальная технология</h3>
+			<p class="text">	
+				Так как спецификация этой технологии ещё не стабилизировалась, смотрите таблицу совместимости по поводу использования в 
+				различных браузерах. Также заметьте, что синтаксис и поведение экспериментальной технологии может измениться в будущих 
+				версиях браузеров, вслед за изменениями спецификации
+			</p>
+		</div>
+		<div class="textContainer colorText blueColor">
+			<p class="text">	
+				<strong>Примечание использования:</strong> Этот элемент был удален из HTML5 (W3C) спецификации , но до сих пор остается в спецификации 
+				WHATWG. Он частично встроен в большинство браузеров, хотя бы поэтому врядли уйдет. Поскольку схематический алгоритм не 
+				реализован ни в одном брузере, семантика тега &lthgroup&gtна практике реализована только теоретически. Спецификация HTML5 
+				W3C) дает совет как обозначать подзаголовки, альтернативные заголовки и слоганы.
+			</p>
+		</div>
+		<div class="textContainer">
+			<p class="text">
+				HTML &lthgroup&gt Элемент (HTML Headings Group Element - Элемент Группы Заголовков HTML) представляет заголовок раздела. 
+				Он определяет один заголовок, который участвует в cхеме документа как заголовок явно или неявно заданного раздела, 
+				к которому он принадлежит.
+			</p>
+		</div>
+		<div class="textContainer">
+			<p class="text">
+				Собственно текст для схематического алгоритма - это текст первого элемента заголовка HTML наивысшего ранга (т. Е.
+				Первый &lth1&gt, &lth2&gt, h3 , h4 , h5 или h6 с наименьшим числом потомков), а rank - уровень этого элемента заголовка HTML.
+			</p>
+		</div>
+		<div class="textContainer">
+			<p class="text">
+				Поэтому этот элемент группирует несколько заголовков, внося лишь основной текст в план документа. Он позволяет связывать
+				вторичные заголовки, такие как подзаголовки, альтернативные заголовки или даже теги, с основным заголовком, без загрязнения 
+				структуры документа.
+			</p>
+		</div>
+		<table class="tableProps">
+			<tr class="trProps">
+				<td>Категория информации <td>
+				<td>Flow content, heading content, palpable content.<td>
+			</tr>
+			<tr class="trProps">
+				<td>Permitted content<td>
+				<td>One or more &lth1&gt, &lth2&gt, &lth3&gt, &lth4&gt, &lth5&gt, and/or &lth6>.<td>
+			</tr>
+			<tr class="trProps">
+				<td>Tag omission<td>
+				<td>Нет, открывающий и закрывающий теги обязательны<td>
+			</tr>
+			<tr class="trProps">
+				<td>Permitted parent elements<td>
+				<td>Any element that accepts flow content.<td>
+			</tr>
+			<tr class="trProps">
+				<td>DOM interface<td>
+				<td>HTMLElement<td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

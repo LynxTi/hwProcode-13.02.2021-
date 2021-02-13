@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.textContainer {
+	margin: 0 0 12px;
+}
+
+.colorText {
+	padding: 12px;	
+}
+
+.yellowColor {
+	background-color: #fef1b6;
+	border-left: 6px solid #e1c542;
+}
+
+.blueColor {
+	background-color: #dcf4ff;
+	border-left: 6px solid #1e7f9d
+}
+
+.textTitle {
+	margin-bottom: 5px;
+}
+
+.text {
+	max-width:670px;
+	line-height: 1.75;
+}
+
+.tableProps {
+	max-width: 670px;
+	border: 2px solid #00458b;
+	border-left: 6px solid #00458b;
+}
+
+.trProps {
+	border-bottom: 2px solid #00458b;
+}
