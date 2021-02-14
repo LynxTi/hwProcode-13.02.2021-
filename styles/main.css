@@ -3,20 +3,30 @@
 	padding: 0;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.content{
+	margin: 50px 50px 0 50px;
+	font-family: arial,x-locale-body,sans-serif;
+}
+
 .textContainer {
-	margin: 0 0 12px;
+	margin: 0 0 25px;
 }
 
 .colorText {
 	padding: 12px;	
 }
 
-.yellowColor {
+.aboutTechnologyBlock {
 	background-color: #fef1b6;
 	border-left: 6px solid #e1c542;
 }
 
-.blueColor {
+.useNoteBlock {
 	background-color: #dcf4ff;
 	border-left: 6px solid #1e7f9d
 }
@@ -34,8 +44,69 @@
 	max-width: 670px;
 	border: 2px solid #00458b;
 	border-left: 6px solid #00458b;
+	margin-bottom: 40px;
+	border-collapse: collapse;
+	
+}
+
+.exampleText {
+	border-left: 6px solid #00458b;
+	background-color:#eee;
+	padding: 15px;
+}
+
+.nestedTag {
+	margin-left: 15px;
+	line-height: 1.4;
 }
 
 .trProps {
 	border-bottom: 2px solid #00458b;
+	
+}
+
+.trProps td {
+	padding: 30px;
+}
+
+.titleLink {
+	margin-bottom: 20px;
+	display:block;
+	font-size: 2.4rem;
+}
+.brousersList li {
+	margin-bottom: 15px;
+}
+.warningBrowsersCompatibilityBlock {
+	border-left: 6px solid #e1c542;
+	background: #fef1b6;
+	padding: 15px 0 15px 12px;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+ul {
+	margin-left: 45px;
+	margin-bottom: 15px;
+}
+
+.pcBrousersBlock table {
+	border: 1px solid #c9c9c9;
+	padding: 12px;
+	border-collapse: collapse;
+	margin-bottom: 50px;
+}
+
+.pcBrousersBlock table td {
+	border: 1px solid #c9c9c9;
+	padding: 12px;
+}
+
+.textMoreBlock {
+	max-width:670px	
+}
+
+.textMoreBlock li {
+	margin-bottom:15px;
+	line-height:1.5;
 }
